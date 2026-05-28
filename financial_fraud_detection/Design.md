@@ -8,6 +8,8 @@
 
 This platform detects fraudulent credit-card transactions in near real time, scores risk, and surfaces human-readable investigation guidance. It is implemented in the Jupyter notebook [`jupyter_notebook/Team_5_AI_Powered_Real_Time_Financial_Fraud_&_Risk_Intelligence_Platform.ipynb`](jupyter_notebook/Team_5_AI_Powered_Real_Time_Financial_Fraud_&_Risk_Intelligence_Platform.ipynb) and targets resource-constrained environments (laptops, Colab) while preserving production-oriented patterns: imbalance handling, explainability, and a Streamlit deployment path.
 
+**Feature Store (SageMaker):** [`jupyter_notebook/Team_5_FeatureStore_CreditCard_Fraud.ipynb`](jupyter_notebook/Team_5_FeatureStore_CreditCard_Fraud.ipynb) — aligned with Assignment 3.1 Feature Store patterns; ingests `creditcard.csv` into online/offline feature groups for real-time inference enrichment.
+
 ### 1.1 Problem statement
 
 Credit-card fraud is rare (~0.17% of transactions) but costly. A practical system must:
